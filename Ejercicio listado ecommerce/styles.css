@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+/* ESTRUCTURA CON CSS GRID */
+
+.product_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 1.2rem;
+  grid-row-gap: 2.2rem;
+  width: 1400px;
+}
+
+.product_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product_title {
+  background-color: lightgrey;
+  margin: 8px;
+}
+
+.product_price {
+  font-weight: 800;
+}
+
+.product_image {
+  width: 90%;
+}
+
+.logo_store {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 36px;
+  margin-top: 5%;
+}
+
+.breadcrumb {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  gap: 8px;
+  color: grey;
+  margin-bottom: 24px;
+}
+
+.navigation_filter {
+  margin-bottom: 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  gap: 8px;
+}
+
+.woman,
+.men {
+  background-color: lightgrey;
+}
+
+.navigation_options {
+  padding-bottom: 4px;
+  font-size: 1.1rem;
+}
+
+.navigation_options_red {
+  color: red;
+  font-size: bold;
+}
+
+.menuLateral {
+  position: absolute;
+  margin-left: -65%;
+  margin-top: -50px;
+}
+
+li {
+  list-style: none;
+}
